@@ -1,0 +1,54 @@
+<h1>Assignment Editor</h1>
+
+<a href="screen.html">Back</a>
+
+<table>
+    <tr>
+        <td valign="top"></td>
+        <td valign="top"></td>
+        <td valign="top"></td>
+        <h3>Assignment Name</h3>
+        <form action="/kanbas-app/Courses/Home">
+            <input value="A1 - ENV + HTML" />
+
+            <br />
+            <textarea cols="50" rows="10">
+        This is the description of the assignment
+      </textarea>
+            <br />
+            <input
+                    id="points"
+                    max="100"
+                    min="50"
+                    step="5"
+                    type="number"
+                    value="100" />
+            <br />
+            Online Entry Options
+            <br/>
+            <input id="text-entry" type="checkbox"/>
+            <label for="text-entry">Text Entry</label>
+            <br />
+            <label> <input type="checkbox"/> Website URL</label>
+            <br/>
+            <input type="checkbox" checked/> Media Recording<br/>
+            <input type="checkbox" /> Annotation<br/>
+            <input type="checkbox"/> Uploads
+            <br/>
+            <br/>
+            <br />
+            <br />
+            <h3>Due Dates</h3>
+            <input
+                    type="date"
+                    value="2023-09-21"
+                    min="2023-09-07"
+                    max="2023-09-28"
+            />
+        </form>
+            <br/>
+                <form action="screen.html">
+                    <button>Save</button>
+                </form>
+    </tr>
+</table>
